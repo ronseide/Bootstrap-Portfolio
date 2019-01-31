@@ -50,3 +50,6 @@ footer {
 .push {
     height: 3rem;
 }
+.btn-info {
+    background-color: #4aaaa5;
+}
