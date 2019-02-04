@@ -11,17 +11,24 @@ html, body {
     margin-bottom: -3rem;
 }
 header {
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #777777;
 }
+/* The !important override in this rule is here to supercede the B4 default background color for the light navbar in the main B4 stylesheet. I feel kinda dirty about it but it's better than an inline style. */
+.bg-light {
+    background-color: #ffffff !important;
+    padding: 0rem;
+}
+/* The !important override in this rule is here to supercede the B4 default text color for the navbar brand in the main B4 stylesheet. I feel kinda dirty about it but it's better than an inline style. */
 .navbar-brand {
     background-color: #4aaaa5;
-    color: #ffffff;
+    color: #ffffff !important;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 0.5rem 2rem 0.5rem 2rem;
+    margin 0rem;
 }
-.navbar-light {
-    background-color: #777777;
+.navbar-nav {
+    background-color: #ffffff;
 }
 main {
     background-color: #ffffff;
@@ -44,12 +51,27 @@ footer {
     text-align: center;
     background-color: #777777;
     color: #ffffff;
-    border-top: 0.5rem solid #4aaaa5;
-    height: 3rem;
+    border-top: 0.5rem solid #4aaaa5;  
 }
 .push {
     height: 3rem;
 }
 .btn-info {
     background-color: #4aaaa5;
+}
+.card {
+    margin: 1rem;
+    padding: 0rem;
+    border: none;
+}
+.card-img-top {
+    padding: 0rem;
+    
+}
+.card-body {
+    background-color: #4aaaa5;
+    text-align: center;
+    
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
