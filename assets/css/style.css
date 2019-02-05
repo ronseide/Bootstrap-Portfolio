@@ -25,7 +25,7 @@ header {
     color: #ffffff !important;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 0.5rem 2rem 0.5rem 2rem;
-    margin 0rem;
+    margin: 0rem;
 }
 .navbar-nav {
     background-color: #ffffff;
@@ -45,6 +45,7 @@ img {
 }
 p {
     padding: 1rem;
+    margin-bottom: 0rem;
 }
 footer {
     margin-top: 1rem;
@@ -66,12 +67,10 @@ footer {
 }
 .card-img-top {
     padding: 0rem;
-    
 }
 .card-body {
     background-color: #4aaaa5;
     text-align: center;
-    
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
